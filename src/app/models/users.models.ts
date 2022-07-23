@@ -1,4 +1,5 @@
 export class Users {
-    id:number = 0;
-    username: string = '';
+    id?:number = 0;
+    username?: string = '';
+    password?: string = '';
 }
